@@ -25,7 +25,9 @@ git commit -m '提交信息' --将文件提交到仓库
 
 git status --查看仓库当前状态，是否有更改未提交
 
-git diff [文件名] --查看
+git diff [文件名] --查看本次文件更改
+
+git log  --显示提交日志[--pretty=oneline 可方便查看]
 
 
 
