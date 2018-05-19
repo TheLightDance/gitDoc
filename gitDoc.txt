@@ -23,7 +23,7 @@ git add [文件名] [文件名] --将文件添加到版本跟踪
 
 git commit -m '提交信息' --将文件提交到仓库
 
-git status --查看仓库当前状态
+git status --查看仓库当前状态，是否有更改未提交
 
 git diff [文件名] --查看
 
