@@ -27,14 +27,20 @@ git status --查看仓库当前状态，是否有更改未提交
 
 git diff [文件名] --查看本次文件更改
 
+git diff HEAD -- [文件名] --工作区和版本库最新版本的区别
+
 git log  --显示提交日志[--pretty=oneline 可方便查看]
 
 git reset --hard HEAD^ --回退到上一个版本（HEAD~100  回退多少个版本）
 
 git reset --hard [版本号] -- 回到某个指定版本
 
+git reset HEAD [文件名] --将暂存区的修改撤销掉
+
 git reflog --显示记录的git命令
 
+git checkout -- [文件名]  --让文件回到最近一次的add 或者 commit 之前
 
+git
 
 \------------/
