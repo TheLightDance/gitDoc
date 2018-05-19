@@ -29,7 +29,11 @@ git diff [文件名] --查看本次文件更改
 
 git log  --显示提交日志[--pretty=oneline 可方便查看]
 
---
+git reset --hard HEAD^ --回退到上一个版本（HEAD~100  回退多少个版本）
+
+git reset --hard [版本号] -- 回到某个指定版本
+
+git reflog --显示记录的git命令
 
 
 
