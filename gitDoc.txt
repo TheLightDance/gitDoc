@@ -35,11 +35,11 @@ git reset --hard HEAD^ --回退到上一个版本（HEAD~100  回退多少个版
 
 git reset --hard [版本号] -- 回到某个指定版本
 
-git reset HEAD [文件名] --将暂存区的修改撤销掉
-
 git reflog --显示记录的git命令
 
 git checkout -- [文件名]  --让文件回到最近一次的add 或者 commit 之前
+
+git reset HEAD [文件名] --将暂存区的修改撤销掉
 
 git
 
