@@ -41,6 +41,6 @@ git checkout -- [文件名]  --让文件回到最近一次的add 或者 commit �
 
 git reset HEAD [文件名] --将暂存区的修改撤销掉
 
-git
+git rm [文件名] --将文件删除
 
 \------------/
