@@ -56,9 +56,13 @@ git push -u origin master --第一次推送master分支的内容
 
 git push [远程库] [分支名] --本地提交后，可以用此命令推送修改
 
+git pull  从远程拉取并且与本地合并
+
 git clone git@github.com:TheLightDance/dva-knowledgemap.git --从远程库克隆一个本地库
 
 git checkout -b dev origin/dev --创建远程origin的dev分支到本地
+
+git branch --set-upstream-to [分支名] origin/[分支名] --将本地分支与远程分支建立链接
 
 
 //git分支操作
@@ -84,6 +88,5 @@ git stash --储存工作现场
 
 git stash pop --恢复工作现场
 
-dev--分支
 
 \------------/
