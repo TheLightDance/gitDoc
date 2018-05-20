@@ -111,4 +111,12 @@ git push origin --tags --推送全部未推送的标签
 
 git push origin :refs/tags/[标签名] --删除远程标签
 
+//git配置忽略提交文件
+
+编写.gitignore文件 --将忽略文件写在里面
+
+git add -f [文件名] --强制添加文件
+
+git check-ignore -v [文件名] --检查gitignore问题
+
 \------------/
