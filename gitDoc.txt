@@ -54,6 +54,12 @@ git push origin master --本地提交后，可以用此命令推送修改
 
 git clone git@github.com:TheLightDance/dva-knowledgemap.git --从远程库克隆一个本地库
 
+git branch --查看所有分支
 
+git checkout -b [分支名] --新建分支并切换到该分支
+ |
+ |-- 相当于
+ |-- git branch [分支名] 创建分支
+ |-- git checkout [分支名] 切换到分支
 
 \------------/
