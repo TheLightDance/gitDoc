@@ -91,4 +91,16 @@ git stash --储存工作现场
 git stash pop --恢复工作现场
 
 
+//git标签操作
+
+git tag --查看所有标签
+
+git tag [标签名] --添加标签
+
+git tag -a [标签名] -m [标签信息] [commit id]
+
+git tag [标签名] [提交id] --给某次提交打标签
+
+git show [标签名] --查看标签信息
+
 \------------/
