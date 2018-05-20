@@ -46,6 +46,10 @@ git rm [文件名] --将文件删除
 
 //git命令[远程]
 
+git remote --查看远程库信息
+
+git remote -v --查看远程库详细信息
+
 git remote add origin git@github.com:TheLightDance/gitDoc.git --关联远程库
 
 git push -u origin master --第一次推送master分支的内容
