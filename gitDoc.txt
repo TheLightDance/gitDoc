@@ -56,10 +56,14 @@ git clone git@github.com:TheLightDance/dva-knowledgemap.git --从远程库克隆
 
 git branch --查看所有分支
 
+git branch -d [分支名] 删除[分支名]分支
+
 git checkout -b [分支名] --新建分支并切换到该分支
  |
  |-- 相当于
  |-- git branch [分支名] 创建分支
  |-- git checkout [分支名] 切换到分支
+
+git merge [分支名] 将[分支名]上的修改合并到当前分支
 
 \------------/
